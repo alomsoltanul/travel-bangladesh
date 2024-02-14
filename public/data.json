@@ -2,67 +2,73 @@
   {
     "id": 1,
     "service": "Travel Chittagong",
-    "image": "image1.jpg",
-    "bg-img": "bg1.jpg",
+    "image": "https://i.ibb.co/tJwvCyF/2.jpg",
+    "bg_img": "https://i.ibb.co/tJwvCyF/2.jpg",
     "service_details": "Service 1 offers comprehensive solutions tailored to meet your business needs. From strategic planning to implementation and ongoing support, we ensure that your objectives are met efficiently and effectively. Our team of experts is dedicated to delivering high-quality results that drive success for your organization.",
+    "alt" :"Travel_ctg",
     "price": 499,
     "reserve": true,
-    "member_service": false,
-    "premium_service": true
+    "member_service": "Know Details",
+    "premium_service": "Click For More"
   },
   {
     "id": 2,
     "service": "Workshops and Webinars",
-    "image": "image2.jpg",
-    "bg-img": "bg2.jpg",
+    "image": "https://i.ibb.co/PzVDjPn/3.jpg",
+    "bg_img": "https://i.ibb.co/PzVDjPn/3.jpg",
     "service_details": "Service 2 provides innovative solutions to enhance your online presence and boost customer engagement. With our cutting-edge technologies and creative strategies, we help you stand out in the digital landscape and achieve your business goals. Let us help you take your brand to the next level!",
     "price": 299,
     "reserve": false,
-    "member_service": true,
-    "premium_service": false
+    "member_service": "Know Details",
+    "premium_service": "Click For More",
+    "alt" :"Travel_ctg"
   },
   {
     "id": 3,
     "service": "Health Fairs",
-    "image": "image3.jpg",
-    "bg-img": "bg3.jpg",
+    "image": "https://i.ibb.co/VWT552k/4.jpg",
+    "bg_img": "https://i.ibb.co/VWT552k/4.jpg",
     "service_details": "Service 3 specializes in delivering personalized experiences that delight customers and drive loyalty. Our tailored solutions combine data-driven insights with creative design to create memorable interactions at every touchpoint. Elevate your customer experience with Service 3!",
     "price": 399,
     "reserve": true,
-    "member_service": true,
-    "premium_service": false
+    "member_service": "Know Details",
+    "premium_service": "Click For More",
+    "alt" :"Travel_ctg"
   },
   {
     "id": 4,
     "service": "Tech Conferences and Expos",
-    "image": "image4.jpg",
-    "bg-img": "bg4.jpg",
+    "image": "https://i.ibb.co/yhVvBLq/5.jpg",
+    "bg_img": "https://i.ibb.co/yhVvBLq/5.jpg",
     "service_details": "Service 4 offers comprehensive financial planning and investment management services to help you achieve your financial goals. Our experienced advisors work closely with you to develop a customized strategy that aligns with your unique needs and objectives. Trust Service 4 to guide you toward a secure financial future.",
     "price": 999,
     "reserve": false,
-    "member_service": false,
-    "premium_service": true
+    "member_service": "Know Details",
+    "premium_service": "Click For More",
+    "alt" :"Travel_ctg"
   },
   {
     "id": 5,
     "service": "Game Of OGs",
-    "image": "image5.jpg",
-    "bg-img": "bg5.jpg",
+    "image": "https://i.ibb.co/t8Y07jJ/6.jpg",
+    "bg_img": "https://i.ibb.co/t8Y07jJ/6.jpg",
     "service_details": "Service 5 provides top-notch event planning and coordination services to make your special occasions unforgettable. From weddings to corporate events, our dedicated team handles every detail with precision and care. Let Service 5 turn your vision into reality!",
     "price": 599,
     "reserve": true,
-    "member_service": true,
-    "premium_service": true
+    "member_service": "Know Details",
+    "premium_service": "Click For More",
+    "alt" :"Travel_ctg"
   },
   {
     "id": 6,
     "service": "Freelancing Seminer on React",
-    "image": "image6.jpg",
-    "bg-img": "bg6.jpg",
+    "image": "https://i.ibb.co/jWwQPgM/door.jpg",
+    "bg_img": "https://i.ibb.co/jWwQPgM/door.jpg",
     "service_details": "Service 6 offers comprehensive health and wellness programs designed to help you achieve optimal well-being. From personalized fitness plans to nutritional counseling, our team of experts is committed to supporting you on your journey to a healthier lifestyle. Take the first step toward a happier, healthier you with Service 6!",
     "price": 799,
     "reserve": false,
-    "member_service": false,
-    "premium_service": false
+    "member_service": "Know Details",
+    "premium_service": "Click For More",
+    "alt" :"Travel_ctg"
   }
 ]

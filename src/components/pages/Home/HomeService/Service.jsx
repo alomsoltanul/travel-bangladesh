@@ -13,7 +13,7 @@ const Service = () => {
     return (
         <div > 
             <div>
-                <h2 className="font-display bg-base-200 text-6xl font-bold text-center pt-10">Service Section {service.length}</h2>
+                <h2 className="font-display bg-base-200 text-6xl font-bold text-center pt-10">Service Section </h2>
             </div>
             {/* section-1 */}
            

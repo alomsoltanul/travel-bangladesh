@@ -9,7 +9,7 @@ const Services = ({ services }) => {
         <div>
             <div className="hero bg-base-200 pb-16">
                 <div className="hero-content flex-col lg:flex-row-reverse w-9/12 border-solid border-2 border-sky-200 rounded-md my-6">
-                    <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className=" rounded-lg shadow-2xl" />
+                    <img  style={{ width:"100%", height:"300px"}}src={image} className=" rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold">{service}</h1>
                         <p className="py-6">{service_details}</p>
