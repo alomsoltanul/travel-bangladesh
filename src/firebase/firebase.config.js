@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAcxYa-E-mtZGED7n_MENBSdJqTqo0Shxo",
-  authDomain: "travel-bangladesh-9e8da.firebaseapp.com",
-  projectId: "travel-bangladesh-9e8da",
-  storageBucket: "travel-bangladesh-9e8da.appspot.com",
-  messagingSenderId: "127931051789",
-  appId: "1:127931051789:web:9cdaada196f4d955f20a44"
+  apiKey:import.meta.env.VITE_APIKEY,
+  authDomain:import.meta.env.VITE_AUTHDOMAIN,
+  projectId:import.meta.env.VITE_PROJECTID ,
+  storageBucket:import.meta.env.VITE_STORAGEBUCKET ,
+  messagingSenderId:import.meta.env.VITE_MESSEGEID,
+  appId:import.meta.env.VITE_APPIT
 };
 
 // Initialize Firebase

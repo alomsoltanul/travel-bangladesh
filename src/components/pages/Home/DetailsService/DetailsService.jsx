@@ -23,16 +23,15 @@ const DetailsService = () => {
                             </div>
                         </div>
                         <div>
-                            <Link>
+                            <Link to={`/members/${id}`}>
                                 <div className="card w-96 bg-base-100 shadow-xl">
                                     <figure className="px-10 pt-10">
-                                        <img src={detailService.image} alt={detailService.alt} className="rounded-xl" />
+                                        <img style={{ backgroundSize: 'cover' }} src={detailService.image} alt={detailService.alt} className="rounded-xl" />
                                     </figure>
-                                    <div className="card-body items-center text-center">
-                                        <h2 className="card-title">Shoes!</h2>
-                                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                                    <div className="card-body items-center text-center text-black">    
+                                        <p className="card-title font-bold font-display text-2xl tracking-wide">See Exclusive Contents</p>
                                         <div className="card-actions">
-                                            <button className="btn btn-primary">Buy Now</button>
+                                            <button className="font-base font-display btn btn-primary tracking-widest">Click anywhere in the box</button>
                                         </div>
                                     </div>
                                 </div>

@@ -14,6 +14,8 @@ import Register from './components/pages/CreateAccount/Register.jsx';
 import SearchLocation from './components/pages/SearchLocation/SearchLocation.jsx';
 import Providers from './components/AuthProvider/Providers.jsx';
 import DetailsService from './components/pages/Home/DetailsService/DetailsService.jsx';
+import PrivateRoute from './components/Shared/PrivateRoute/PrivateRoute.jsx';
+import MemberArea from './components/pages/MemberArea/MemberArea.jsx';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +46,11 @@ const router = createBrowserRouter([
         path: "/service-details/:id",
         element: <DetailsService></DetailsService>,
         loader : () => fetch("../public/data.json")
+      },
+      {
+        path: "/members/:id",
+        element: <PrivateRoute><MemberArea></MemberArea></PrivateRoute>,
+        
       },
     ]
   },
