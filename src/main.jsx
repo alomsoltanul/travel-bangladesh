@@ -13,6 +13,7 @@ import Login from './components/pages/LoginPage/Login.jsx';
 import Register from './components/pages/CreateAccount/Register.jsx';
 import SearchLocation from './components/pages/SearchLocation/SearchLocation.jsx';
 import Providers from './components/AuthProvider/Providers.jsx';
+import DetailsService from './components/pages/Home/DetailsService/DetailsService.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
       {
         path: "/search-location",
         element: <SearchLocation></SearchLocation>,
+      },
+      {
+        path: "/service-details/:id",
+        element: <DetailsService></DetailsService>,
+        loader : () => fetch("../public/data.json")
       },
     ]
   },

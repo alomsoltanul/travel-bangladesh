@@ -1,5 +1,6 @@
 // import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
+import Service from "./HomeService/Service";
 const Home = () => {
     return (
         <div>
@@ -49,6 +50,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* section  */}
+            <Service></Service>
+            {/* section  */}
+            
         </div>
     );
 };
